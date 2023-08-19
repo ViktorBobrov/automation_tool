@@ -1,0 +1,83 @@
+@media (max-width: 769px) {
+  .head_wrap {
+    max-width: 768px;
+  }
+  main {
+    max-width: 768px;
+    padding: 40px;
+  }
+  .main_list-wrap_img {
+    display: none;
+  }
+  .what_we_do-wrap {
+    max-width: 768px;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 0px 70px;
+  }
+  .what_we_do-head {
+    max-width: 600px;
+    position: relative;
+    left: 0;
+  }
+  .what_we_do-card {
+    max-width: 500px;
+  }
+  .move_block {
+    transform: translate(0, 0);
+  }
+  .over_head_div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin-right: 0px;
+  }
+  .over_head-head {
+    align-self: flex-start;
+  }
+  .exel_wrap {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .exel_elem {
+    max-width: 258px;
+  }
+  .lets_talk-wrapper {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .footer_list-wrap {
+    margin-right: 30px;
+  }
+}
+@media (max-width: 321px) {
+  .head_wrap {
+    max-width: 320px;
+    width: 100%;
+  }
+
+  main {
+    max-width: 320px;
+    padding: 10px;
+  }
+  .main_list-wrap_text-h1 {
+    font-size: 42px;
+  }
+  .what_we_do-card {
+    max-width: 320px;
+  }
+  .footer_wrap {
+    flex-direction: column;
+  }
+  .over_head-head {
+    max-width: 300px;
+    margin-left: 40px;
+  }
+  .lets_talk-head {
+    font-size: 32px;
+  }
+  .list_none {
+    display: none;
+  }
+}
