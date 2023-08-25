@@ -166,6 +166,47 @@
           </div>
           <button class="lets_talk-button">Let’s Talk</button>
         </div>
+        <div class="form">
+          <form class="form_block">
+            <label class="form_head">SEND US MESSAGE</label>
+            <label class="labelName">
+              Full name
+              <input
+                type="text"
+                placeholder="Name"
+                class="inputName"
+                id="inputNameId"
+              />
+              <span class="errorText"> error</span>
+            </label>
+
+            <label class="emailName" id="inputEmailId"
+              >Email
+              <input type="email" placeholder="email" class="inputEmail" />
+              <span class="errorText"> error</span>
+            </label>
+
+            <label class="messageName" id="inputEmailId"
+              >Message
+              <textarea
+                name=""
+                id="inputTextareaId"
+                cols="30"
+                rows="5"
+                class="inputTextarea"
+                placeholder="Your Message"
+              ></textarea>
+              <span class="errorText"> error</span>
+            </label>
+
+            <button class="formButton">sumbit</button>
+          </form>
+        </div>
+        <div class="overlay"></div>
+        <div class="modalBox">
+          <p class="modal_text">"Your message successfully sent"</p>
+          <button class="modalButton">close</button>
+        </div>
       </section>
       <footer class="footer">
         <div class="footer_wrap">

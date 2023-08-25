@@ -462,6 +462,8 @@ margin_class {
   align-items: flex-start;
   justify-content: center;
   padding: 56px;
+  position: absolute;
+  z-index: 600;
 }
 .form_head {
   color: #1f3f68;
@@ -526,13 +528,14 @@ margin_class {
 }
 .form {
   width: 100%;
-  display: flex;
+  display: none;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
+  background-color: transparent;
   z-index: 500;
 }
+
 .formButton {
   margin-top: 72px;
   width: 100%;
@@ -563,4 +566,55 @@ margin_class {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 4;
   cursor: pointer;
+}
+
+.errorText {
+  color: red;
+  display: none;
+}
+
+.labelError > .errorText {
+  display: inline;
+}
+
+.labelError > input {
+  border-color: red;
+}
+.errorText {
+  display: none;
+}
+.modalBox {
+  color: #356ead;
+  background-color: #fff;
+  width: 100%;
+  padding: 40px 0px 40px;
+  border-radius: 15px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.modal_text {
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.64px;
+  border: none;
+  text-transform: uppercase;
+}
+.modalButton {
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.64px;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #356ead;
+  padding: 10px 30px;
+  border-radius: 15px;
 }
